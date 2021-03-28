@@ -19,12 +19,17 @@ body {
   color: #a289e5;
 }
 
-h1, h2 {
+h1{
   font-family: "space_age";
-  margin-top: 11vh;
+  margin-top: 5vh;
   color: #C394F5;
 }
-
+h2{
+  margin-top: 5vh;
+  font-family: "space_age";
+  color: #C394F5;
+  margin-bottom: 1.3vh;
+}
 #photoDeMoi {
   float: left;
 }
@@ -34,23 +39,25 @@ h1, h2 {
 }
 
 #apprenante {
-  /*	height: 100vh;*/
-  font-size: 1.3vh;
+  font-size: 1.5vh;
   font-weight: bold;
   height: 100vh;
+  margin-bottom: 3vh;
 }
 
 #aPropos {
   margin-right: 6vh;
   height: 100vh;
+  width: 100vw;
   font-size: 1.3vh;
   font-weight: bold;
 }
 
 #accueil {
   margin-right: 6vh;
-  height: 77vh;
-  font-size: 7vh;
+  height: 100vh;
+  width: 100vw;
+  font-size: 7vw;
   padding: 2vh;
 }
 
@@ -123,7 +130,7 @@ h1, h2 {
 
 #liensInterne {
   height: 90vh;
-  font-size: 4vh;
+  font-size: 3.4vh;
   float: left;
 }
 #liensInterne a {
@@ -136,7 +143,7 @@ h1, h2 {
 }
 #liensInterne a:hover {
   text-shadow: 0 0 0.2em lightblue;
-  font-size: 5.5vh;
+  font-size: 3.8vh;
   color: #C394F5;
   cursor: pointer;
 }
