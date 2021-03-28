@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "neuropol";
+  src: url("typographies/neuropol_x_rg-webfont.woff2") format("woff2"), url("typographies/neuropol_x_rg-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "space_age";
+  src: url("typographies/space_age-webfont.woff2") format("woff2"), url("typographies/space_age-webfont.woff") format("woff");
+}
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "neuropol";
+  color: #a095f4;
+  margin: 0;
+  padding: 0;
+  background-color: #fcbd5f;
+  color: #a289e5;
+}
+
+h1, h2 {
+  font-family: "space_age";
+  margin-top: 11vh;
+  color: #C394F5;
+}
+
+#photoDeMoi {
+  float: left;
+}
+
+#photoDeMoiMobile {
+  height: 63vh;
+}
+
+#apprenante {
+  /*	height: 100vh;*/
+  font-size: 1.3vh;
+  font-weight: bold;
+  height: 100vh;
+}
+
+#aPropos {
+  margin-right: 6vh;
+  height: 100vh;
+  font-size: 1.3vh;
+  font-weight: bold;
+}
+
+#accueil {
+  margin-right: 6vh;
+  height: 77vh;
+  font-size: 7vh;
+  padding: 2vh;
+}
+
+#scrollUp {
+  position: fixed;
+  bottom: 10px;
+  right: -100px;
+  opacity: 0.9;
+}
+
+#boutonTop {
+  padding-right: 1vw;
+  font-size: 5vh;
+  color: #C394F5;
+}
+#boutonTop:hover {
+  text-shadow: 0 0 0.2em lightblue;
+}
+
+.barTop {
+  position: fixed;
+  background-color: none;
+  height: 6vh;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.barTop #iconeBurger {
+  float: right;
+  font-size: 5vh;
+  padding-top: 1vh;
+  padding-right: 2vh;
+  color: #C394F5;
+  background-color: #fcbd5f;
+}
+.barTop #iconeBurger:hover {
+  text-shadow: 0 0 0.2em lightblue;
+  color: #C394F5;
+}
+
+.navDeroulante {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #fcbd5f;
+}
+
+.cross {
+  background-color: #fcbd5f;
+  height: 7vh;
+}
+.cross #iconeCross {
+  float: right;
+  font-size: 6vh;
+  padding-top: 0.5vh;
+  padding-right: 2vh;
+  color: #C394F5;
+}
+.cross #iconeCross:hover {
+  text-shadow: 0 0 0.2em lightblue;
+  color: #C394F5;
+}
+
+.lienDeNavigation {
+  background-color: #fcbd5f;
+  height: 80vh;
+}
+
+#liensInterne {
+  height: 90vh;
+  font-size: 4vh;
+  float: left;
+}
+#liensInterne a {
+  text-decoration: none;
+  font-family: "space_age";
+  color: #C394F5;
+}
+#liensInterne a:link {
+  text-decoration: none;
+}
+#liensInterne a:hover {
+  text-shadow: 0 0 0.2em lightblue;
+  font-size: 5.5vh;
+  color: #C394F5;
+  cursor: pointer;
+}
+
+.navDeroulante {
+  display: none;
+}
+
+.navDeroulante:target {
+  display: block;
+}
